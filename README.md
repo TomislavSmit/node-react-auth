@@ -1,5 +1,21 @@
 # Getting Started with this React + Express project
 
+## Setting up environment variables
+
+Configure .env files like so:
+
+1. create .env file in 'client' folder paste this:
+
+REACT_APP_API_URL=http://localhost:3001
+
+2. create .env file in 'server' folder and paste this:
+
+PORT=3001
+MONGO_PUBLIC_KEY=ivridjxo
+MONGO_PRIVATE_KEY=bea027bc-dbeb-4f00-9226-2faee4e52106
+MONGODB_URI=mongodb+srv://test1:test1@cluster20750.5xzkuod.mongodb.net/Cluster20750?retryWrites=true&w=majority&appName=Cluster20750
+COOKIE_KEY=4f00-9226-2faee4e52qw3cc4f00-9226
+
 ## Running both apps as monorepo
 
 Simply type one command from folder to install all dependencies and run both servers
