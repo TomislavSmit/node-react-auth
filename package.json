@@ -1,0 +1,28 @@
+{
+    "name": "nodewithreact",
+    "version": "1.0.0",
+    "description": "## React App",
+    "main": "index.js",
+    "scripts": {
+        "backend": "npm run dev -w server",
+        "frontend": "npm start -w client",
+        "start": "concurrently \"npm run backend\" \"npm run frontend\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/TomislavSmit/nodewithreact.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/TomislavSmit/nodewithreact/issues"
+    },
+    "homepage": "https://github.com/TomislavSmit/nodewithreact#readme",
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    },
+    "workspaces": [
+        "client",
+        "server"
+    ]
+}
